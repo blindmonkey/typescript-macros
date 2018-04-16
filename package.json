@@ -1,9 +1,11 @@
 {
-  "name": "typescript-macro",
+  "name": "typescript-macros",
   "version": "0.0.1",
   "description": "A macro preprocessor for TypeScript",
-  "main": "index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
+    "build": "npx tsc",
     "test": "test"
   },
   "author": "Sergey Grabkovsky",

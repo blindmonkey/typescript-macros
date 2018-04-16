@@ -1,6 +1,12 @@
 import * as typescript from 'typescript';
 import * as process from 'process';
 
+export function macro(f: any): any {
+  return f;
+}
+
+const MacroPackage = 'typescript-macros'
+
 function startsWith(a: string, b: string): boolean {
   return a.slice(0, b.length) === b;
 }
