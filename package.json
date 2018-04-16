@@ -1,0 +1,19 @@
+{
+  "name": "typescript-macro",
+  "version": "0.0.1",
+  "description": "A macro preprocessor for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Sergey Grabkovsky",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/node": "^9.6.5",
+    "process": "^0.11.10"
+  }
+}
