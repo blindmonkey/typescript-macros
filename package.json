@@ -2,8 +2,8 @@
   "name": "typescript-macros",
   "version": "0.0.1",
   "description": "A macro preprocessor for TypeScript",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "test"
